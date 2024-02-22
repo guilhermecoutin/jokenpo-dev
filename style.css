@@ -40,7 +40,7 @@ body {
 }
 
 .buttons-play button {
-    width: 120px;
+    width: 100px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
@@ -57,14 +57,16 @@ body {
 
 p {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
     margin-top: 20px;
 }
 
-#human span {
+#human-score span {
     color: blue;
+    font-size: 26px;
 }
 
-#machine span {
+#machine-score span {
     color: red;
+    font-size: 26px;
 }

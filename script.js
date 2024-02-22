@@ -16,7 +16,6 @@ const machinePlay = (machineChoice) => {
 };
 
 const playTheGame = (human, machine) => {
-    console.log(human, machine);
 
     if (human === machine) {
         result.src = "./assets/empate.png";
@@ -34,5 +33,3 @@ const playTheGame = (human, machine) => {
         result.src = "./assets/ganhou.png";
     }
 };
-
-// pedra > papel > tesoura
